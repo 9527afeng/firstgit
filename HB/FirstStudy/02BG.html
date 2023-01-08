@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商务表格信息</title>
+		<style>
+		/*整体表格样式*/
+		#biaoge {
+			width:100%;
+			border-collapse:collapse;
+			text-align: left;
+		}
+		/*单元表格样式*/
+		#biaoge td,#biaoge th{
+			border: 1px solid youse;
+			padding:7px;
+		}
+		/*单元标题样式*/
+		#biaoge th{
+			background-color: orange;
+			color: #FFFFFF;
+		}
+		/*单元行样式*/
+		#biaoge tr.youse{
+			background: #FFEDDB;
+		}
+		/*链接事件*/
+		a:link,a:visited{
+			text-decoration: none;
+		}
+		/*鼠标事件*/
+		a:hover,a:active{
+			background-color: gray;
+		}
+	</style>
+	</head>
+	
+	
+	
+	
+	
+	<body>
+		<h3>商务表格的实现</h3>
+		<hr />
+		<table id="biaoge" border="1">
+			<tr>
+				<th>招聘信息</th>
+			</tr>
+			<tr>
+				<td>地点</td>
+				<td>招聘职位</td>
+				<td>公司</td>
+			</tr>
+			<tr class="youse">
+				<td><a href="#">上海</a></td>
+				<td><a href="#">交互设计师</a></td>
+				<td><a href="#">腾讯</a></td>
+			</tr>
+			<tr>
+				<td><a href="#">杭州</a></td>
+				<td><a href="#">视觉设计师</a></td>
+				<td><a href="#">阿里</a></td>
+			</tr>
+			<tr class="youse">
+				<td><a href="#">深圳</a></td>
+				<td><a href="#">前端开发</a></td>
+				<td><a href="#">微软</a></td>
+			</tr>
+		</table>
+		
+		
+	</body>
+</html>

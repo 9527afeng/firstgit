@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			#mycanvas{
+				border: 1px solid red;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<canvas id="mycanvas" width="800px" height="600px">
+			
+		</canvas>
+		
+		<script type="text/javascript">
+			var x = document.getElementById("mycanvas");
+			var y = x.getContext("2d");
+			
+			y.beginPath();
+			y.arc(400,150,100,Math.PI,2*Math.PI);
+			y,stroke();
+			
+			y.moveTo(300,150);
+			y.lineTo(300,350);
+			y.stroke();
+			
+			y.moveTo(500,150);
+			y.lineTo(500,350);
+			y.stroke();
+		</script>
+	</body>
+</html>

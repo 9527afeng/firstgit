@@ -1,0 +1,61 @@
+div {
+	color: red;
+}
+
+p {
+	color: gray;
+	text-indent: 2em;
+	/* 左缩进 */
+}
+
+/* class类  用 .  */
+.a {
+	color: cadetblue;
+	line-height: 40px;
+	/* 行间距 */
+}
+
+ul .b {
+	color: blue;
+	text-decoration: underline;
+	/* 下划线 */
+}
+
+.c {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* 通配符选择器 */
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	/* 字体默认无修饰 */
+}
+
+/* 字体 */
+.d {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	/* 数值加粗后面不加px单位 */
+	text-decoration: line-through;
+	/* 删除线 */
+}
+
+.e {
+	width: 700px;
+	height: 800px;
+	background-color: blueviolet;
+	background-image: url("../img/IMG_20180503_175505.jpg");
+	/* 插入背景图 */
+}
+
+/* a{
+	display: block;转为块元素
+	display: inline;转为行内元素
+	display: inline-block;转为行内块元素
+} */
